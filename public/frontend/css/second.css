@@ -1,0 +1,97 @@
+/* second.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/frontend/images/unpad.jpg');
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.heading-section {
+    color: #ffff;
+}
+
+/* Form Styles */
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Mengatur ketinggian minimal agar konten tetap terlihat */
+}
+
+.login-wrap {
+    width: 100%;
+    max-width: 600px; /* Lebar maksimum formulir */
+    background-color: #f9a124;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-wrap h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #070d0e;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: bold;
+    color: #070d0e;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit {
+    background-color: #ed1821;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+    background-color: #A00C0C;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+/* Link Styles */
+a {
+    color: #740F0F;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #A00C0C;
+}
